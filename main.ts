@@ -2,7 +2,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 // One Sentence for a Traveler from 1800: one sentence explaining the modern
-// internet to someone arriving from 1800, at most 200 characters.
+// internet to someone arriving from 1800, at most 200 characters. The picture
+// is a building full of familiar rooms, so a reader from 1800 can hold it whole.
 const LINE =
   "The internet is a library, post office, town square, and theatre stacked inside a glowing box — and you can visit all of it without leaving your chair, mostly while arguing with strangers.";
 const MAX_CHARS = 200;
